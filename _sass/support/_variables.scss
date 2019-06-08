@@ -2,7 +2,10 @@
 // Typography
 //
 
-$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif !default;
+// Include
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+$body-font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default;         // Base font-size for rems
 $body-line-height: 1.4 !default;
@@ -12,6 +15,12 @@ $body-heading-line-height: 1.15 !default !default;
 // Colors
 //
 
+// Clavestone color palette
+// They're all prefixed cst- to not confuse with original theme color logic
+$cst-red: #e66663;
+$cst-grey: #747782;
+
+// Start of default theme colors
 $white: #fff !default;
 
 $grey-dk-000: #959396 !default;
@@ -55,10 +64,10 @@ $sidebar-color: $grey-lt-000 !default;
 $code-background-color: $grey-lt-000 !default;
 
 $body-text-color: $grey-dk-100 !default;
-$body-heading-color: $grey-dk-300 !default;
-$nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
-$btn-primary-color: $purple-100 !default;
+$body-heading-color: $cst-grey !default;
+$nav-child-link-color: $cst-grey !default;
+$link-color: $cst-red !default;
+$btn-primary-color: $cst-red !default;
 $base-button-color: #f7f7f7 !default;
 
 //
