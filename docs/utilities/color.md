@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Color
 parent: Utilities
-nav_order: 3
 ---
 
 # Color Utilities

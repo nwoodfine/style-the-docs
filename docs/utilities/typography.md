@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Typography
 parent: Utilities
-nav_order: 4
 ---
 
 # Typography Utilities
@@ -18,7 +16,7 @@ nav_order: 4
 
 ## Font size
 
-Use the `.fs-1` - `.fs-10` to set an explicit font-size.
+Use the `.fs-1` - `.fs-10` to set an explicit `font-size`.
 
 | Class   | Small screen size `font-size`  | Large screen size `font-size` |
 |:--------|:-------------------------------|:------------------------------|
@@ -82,7 +80,7 @@ Font size 10
 
 ## Font weight
 
-Use the `.fw-300` - `.fw-700` to set an explicit font-size.
+Use the `.fw-300` - `.fw-700` to set an explicit `font-weight`.
 
 <div class="code-example" markdown="1">
 Font weight 300
@@ -145,3 +143,13 @@ Default line height
 Default line height
 {: .fh-default }
 ```
+
+## Text justification
+
+By default text is justified left. Use these `text-` classes to override settings:
+
+| Class          | What it does         |
+|:---------------|:---------------------|
+| `.text-left`   | `text-align: left`   |
+| `.text-right`  | `text-align: right`  |
+| `.text-center` | `text-align: center` |
